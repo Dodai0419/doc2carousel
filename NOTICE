@@ -1,0 +1,11 @@
+doc2carousel includes material adapted from these MIT-licensed projects:
+
+- markitdown, Copyright (c) Microsoft Corporation, https://github.com/microsoft/markitdown
+  The .docx and .pptx readers in doc2carousel.py follow its converters (shape order, title detection, tables,
+  charts, picture alt text, notes), and the Word equation to LaTeX step follows its
+  converter_utils/docx/math/omml.py. tests/fixtures/equations.docx is its test file too. tests/fixtures/test.docx and test.pptx are its test files, and
+  tests/fixtures/markitdown_*.md are markitdown 0.1.9's output for them.
+- ian-xhs-carousel, Copyright (c) 2026 Ian, https://github.com/helloianneo/ian-xhs-carousel
+  assets/carousel.css is its assets/xhs.css with the comments removed; the slide markup follows its templates.
+
+Both are distributed under the MIT License, whose text is in LICENSE.
